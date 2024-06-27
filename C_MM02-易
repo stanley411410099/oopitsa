@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double base, height;
+
+    cin >> base;
+    cin >> height;
+    double area = base * height / 2;
+    cout << fixed  <<  setprecision(1)<< area << endl;
+
+    return 0;
+}
