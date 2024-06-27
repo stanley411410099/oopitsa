@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    double result = round(1.6 * n * 10.0) / 10.0;
+    cout << fixed << setprecision(1) << result << endl;
+
+    return 0;
+}
