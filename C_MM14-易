@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int second;
+    cin >> second;
+    cout << second / 86400 << " days" << endl;
+    cout << (second % 86400) / 3600 << " hours" << endl;
+    cout << (second % 3600) / 60 << " minutes" << endl;
+    cout << second % 60 << " seconds" << endl;
+
+    return 0;
+}
