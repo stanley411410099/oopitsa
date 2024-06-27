@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    int result = static_cast<int>(ceil(static_cast<double>(n) / 0.238));
+    cout << result << endl;
+
+    return 0;
+}
